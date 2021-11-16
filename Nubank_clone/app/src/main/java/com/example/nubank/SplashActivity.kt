@@ -13,7 +13,7 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             //Chama a LoginActivity
-            val mIntent= Intent(this,MainActivity::class.java)
+            val mIntent= Intent(this,DadosActivity::class.java)
             //método responsável por executar a Intent
             startActivity(mIntent)
             //método responsável por remover a tela da pilha
